@@ -1,0 +1,103 @@
+body {
+  margin: 0%;
+  background-color: whitesmoke;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 30px;
+  height: 30px;
+  background-color:black;
+  padding-block: 20px;
+  color: brown;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5 rem;
+  gap: 30px;
+  list-style: none;
+  color: white;
+}
+
+.main-page {
+  height: 80vh;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.title {
+  font-size: 3rem;
+  color: brown;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+  height: 500px;
+  border-radius: 50%;
+}
+.about {
+  text-align: center;
+  color: brown;
+  background-color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.para {
+  color: black;
+  padding-inline: 30%;
+  font-size: 1rem;
+}
+.center {
+  text-align: center;
+  font-size: 3rem;
+  color: brown;
+}
+.skills {
+  color: black;
+}
+.footer {
+  border-top: 1px solid brown;
+  text-align: center;
+  color: brown;
+  font-size: 1rem;
+  padding: 20px;
+}
+li {
+  list-style: none;
+}
+.about-us {
+  display: flex;
+}
+.left {
+  border: 1px solid brown;
+  width: 30%;
+  text-align: center;
+  margin-left: 80px;
+  margin-bottom: 40px;
+  border-radius: 1rem;
+}
+.right {
+  border: 1px solid brown;
+  width: 30%;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  border-radius: 1rem;
+  margin-left: 10px;
+}
+.middle {
+  width: 30%;
+  border: 1px solid brown;
+  text-align: center;
+  margin-bottom: 40px;
+  border-radius: 1rem;
+}
+.end-line{
+  margin-left: 20px;
+  text-align: center;
+  font-size: 4rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: brown;
+}
